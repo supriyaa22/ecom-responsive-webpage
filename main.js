@@ -132,7 +132,7 @@ function displayCart(){
             productContainer.innerHTML += `
             <tr><td class ="cart-product">
                 <ion-icon name="close-circle"></ion-icon>
-                <img src="/D:/SkillVertex/MiniProject/images/${item.tag}.jpg">
+                <img src="/images/${item.tag}.jpg">
                 <span>${item.name}</span>
             </td>
 
