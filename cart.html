@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width= device-width, initial-scale=1.0">
+        <!----Fashionerie icon-->
+        <link rel="shortcut icon" href="D:/MiniProject/images/F_icon.jpg" type="image/x-icon"/>
+        <!---Font awesome-->
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+        <!---Glidejs-->
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"/>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css"/>
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <!--Custom Stylesheet-->
+        <link rel="stylesheet" href="styles.css">
+        <title>Fashionierie</title>
+    </head>
+    <body>
+        <header>
+            <div class="overlay"></div>
+            <nav class="nav">
+                <div class="wrapper container">
+                    <div class="logo"><a href="">Fashionerie</a></div>
+                    <ul class="nav-list">
+                        <div class="top">
+                            <label for="" class="btn close-btn">
+                            <i class="fas fa-times"></i></label>
+                        </div>
+                        <li><a href="Fashionerie.html">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li>
+                            <a href="" class="desktop-item">
+                                Shop<span><i class="fas fa-chevron-down"></i></span>
+                            </a>
+                            <input type="checkbox" id="showMega"/>
+                            <label for = "showMega" class="mobile-item">
+                                Shop<span><i class="fas fa-chevron-down"></i></span>
+                            </label>
+                            <div class="mega-box">
+                                <div class="content">
+                                    <div class="row">
+                                         <img src="D:/MiniProject/images/women.jpg" alt=""/>
+                                    </div>
+                                    <div class="row">
+                                        <header>Shop Layout</header>
+                                        <ul class="mega-links"> 
+                                            <li><a href="">Shop With Background</a></li>
+                                            <li><a href="">Shop Mini Categories</a></li>
+                                            <li><a href="">Shop only Categories</a></li>
+                                            <li><a href="">Shop Icon Categories</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header>Filter Layout</header>
+                                        <ul class="mega-links">
+                                            <li><a href="">Sidebar</a></li>
+                                            <li><a href="">Filter Default</a></li>
+                                            <li><a href="">Filter Drawer</a></li>
+                                            <li><a href="">Filter Dropdown</a></li>
+                                        </ul>
+                                    </div> 
+                                    <div class="row">
+                                        <header>Product Layout</header>
+                                        <ul class="mega-links">
+                                            <li><a href="">Layout Zoom</a></li>
+                                            <li><a href="">Layout Sticky</a></li>
+                                            <li><a href="">Layout Sticky 2</a></li>
+                                            <li><a href="">Layout Scroll</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="" class="desktop-item">
+                                Vendors<span><i class="fas fa-chevron-down"></i></span>
+                            </a>
+                            <input type="checkbox" id="showdrop1"/>
+                            <label for="showdrop1" class="mobile-item">
+                                Vendors<span><i class="fas fa-chevron-down"></i></span>
+                            </label>
+                            <ul class="drop-menu1">
+                                <li><a href="">Vendor Store Listings</a></li>
+                                <li><a href="">Store Details</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href=""class="desktop-item">
+                             Page<span><i class="fas fa-chevron-down"></i></span>
+                            </a>
+                            <input type="checkbox" id="showdrop2"/>
+                            <label for="showdrop2" class="mobile-item">
+                              Page<span><i class="fas fa-chevron-down"></i></span>
+                            </label>
+                            <ul class="drop-menu2">
+                                <li><a href="">About</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Faq</a></li>
+                                <li><a href="">Page 404</a></li>
+                            </ul>
+                        </li>
+                        <li class="cart">
+                            <a href="cart.html">
+                                <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                            </a></li>
+                        <li class="icons">
+                            <span><img src="D:/MiniProject/images/Search.png" alt=""/></span>
+                        </li>
+                    </ul><label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+                </div>
+            </nav>
+            <!---Products-->
+            <div class="cart-products-container">
+                <table class="cart-product-header">
+                    <tr>
+                        <th class="cart-product-title">PRODUCTS IN THE BASKET</th>
+                        <th class="cart-price"></th>
+                        <th class="cart-quantity"></th>
+                        <th class="cart-total"></th>
+                    </tr>
+                <tr class="cart-products">
+                   
+                </tr>
+                </table>
+            </div>
+        </header>
+        <!--End of Footer-->
+        <!---Glidejs-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+        <!---Gsap-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+        <!---Custom Script-->
+        <script src="D:/MiniProject/slider.js"></script>
+        <script src="D:/MiniProject/index.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="D:/MiniProject/main.js"></script>
+    </body>
+    
+</html>
